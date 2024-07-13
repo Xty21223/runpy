@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.hero a {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.benefits,
+.use-cases {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits h2,
+.use-cases h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.benefits ul,
+.use-cases ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits li,
+.use-cases li {
+  margin-bottom: 10px;
+}
+
+.download {
+  text-align: center;
+}
+
+.download p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.download a {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
